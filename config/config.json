@@ -1,0 +1,16 @@
+{
+    "file_processing": {
+        "legacy_fits_path": "../data/survey/legacy/fits", 
+        "columns_to_remove": ["DCHISQ"]
+    },
+    "logging": {
+        "log_directory": "../logs", 
+        "log_file_processing": "failed_files_in_processing.log",
+        "log_file_crossmatch" : "failes_files_in_crossmatch.log"
+    },
+    "hipscat":{
+        "input_path": "../data/survey/legacy/fits",
+        "output_path": "../data/survey/legacy/hipscat",
+        "output_artifact_name": "test_legacy"
+    }
+}

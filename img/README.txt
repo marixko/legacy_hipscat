@@ -1,1 +1,0 @@
-Plots and images go in this folder
